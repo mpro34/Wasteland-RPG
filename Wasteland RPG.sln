@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{8F1C68DD-32D9-B420-8387-002C7EE10E2E}") = "Wasteland RPG", "Assembly-CSharp-firstpass.csproj", "{CDF1BB88-B142-814B-F60A-12EF864EC481}"
+EndProject
+Project("{8F1C68DD-32D9-B420-8387-002C7EE10E2E}") = "Wasteland RPG", "Assembly-CSharp.csproj", "{715FC978-81EC-ABF1-B1D7-EF30753E4A1A}"
+EndProject
+Project("{8F1C68DD-32D9-B420-8387-002C7EE10E2E}") = "Wasteland RPG", "Assembly-CSharp-Editor-firstpass.csproj", "{4AA84C18-2552-C545-1DD3-93534F2417AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDF1BB88-B142-814B-F60A-12EF864EC481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF1BB88-B142-814B-F60A-12EF864EC481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF1BB88-B142-814B-F60A-12EF864EC481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF1BB88-B142-814B-F60A-12EF864EC481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{715FC978-81EC-ABF1-B1D7-EF30753E4A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{715FC978-81EC-ABF1-B1D7-EF30753E4A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{715FC978-81EC-ABF1-B1D7-EF30753E4A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{715FC978-81EC-ABF1-B1D7-EF30753E4A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA84C18-2552-C545-1DD3-93534F2417AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA84C18-2552-C545-1DD3-93534F2417AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA84C18-2552-C545-1DD3-93534F2417AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA84C18-2552-C545-1DD3-93534F2417AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
