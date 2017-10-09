@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Chris's Village.unity
+- path: Assets/Scenes/Combat Sandbox.unity
   isLoaded: 1
   isActive: 1
