@@ -15,11 +15,11 @@ public class CursorAffordance : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		cameraRaycaster = GetComponent<CameraRaycaster> ();
-        cameraRaycaster.layerChangeObservers += OnLayerChanged; //registering
+        cameraRaycaster.layerChangeSet += OnLayerChanged; //registering
 	}
 	
-	void OnLayerChanged () {
-		switch (cameraRaycaster.currentLayerHit) {
+	void OnLayerChanged (Layer newLayer) {
+		switch (newLayer) {
 			case Layer.Walkable:
 				Cursor.SetCursor (walkCursor, cursorHotspot, CursorMode.Auto);
 				break;
@@ -34,4 +34,6 @@ public class CursorAffordance : MonoBehaviour {
 				return;
 		}		
 	}
+
+    //TODO consider de-registering OnLayerChanged on leaving all games scenes
 }

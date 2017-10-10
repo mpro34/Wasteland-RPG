@@ -8,8 +8,6 @@ public class SomeObserver : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        cameraRaycaster = GetComponent<CameraRaycaster>();
-        cameraRaycaster.layerChangeObservers += SomeHandlingFunction;
 	}
 	
 	// Update is called once per frame
