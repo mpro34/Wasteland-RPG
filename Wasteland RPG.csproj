@@ -86,6 +86,9 @@
     <Compile Include="Assets\Camera %26 UI\CursorAffordance.cs" />
     <Compile Include="Assets\Camera %26 UI\PlayerHealthBar.cs" />
     <Compile Include="Assets\Camera %26 UI\SomeObserver.cs" />
+    <Compile Include="Assets\Enemies\Enemy.cs" />
+    <Compile Include="Assets\Enemies\EnemyHealthBar.cs" />
+    <Compile Include="Assets\Enemies\EnemyUI.cs" />
     <Compile Include="Assets\Player\Player.cs" />
     <Compile Include="Assets\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Utility.cs" />
